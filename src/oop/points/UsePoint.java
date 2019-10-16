@@ -2,7 +2,7 @@ package oop.points;
 
 public class UsePoint {
     public static void main(String[] args) {
-        Point point1 = new Point(2, 3);
+        Point point1 = new Point(2, 3,4);
 
         System.out.println(point1.getX());
         System.out.println(point1.getY());
