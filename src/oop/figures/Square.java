@@ -23,7 +23,7 @@ public class Square extends GraphicObject {
 
     public void setLine(double line) throws Exception {
         if (line < 0) {
-            throw new IllegalAccessException("Wrong size");
+            throw new IllegalArgumentException("Wrong size");
         }
         this.line=line;
     }

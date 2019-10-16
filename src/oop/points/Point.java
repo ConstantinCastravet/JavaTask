@@ -5,15 +5,15 @@ public class Point {
     private int y = 1;
     private int z = 1;
 
-    public Point(int x, int y, int z) {
-        setX(x);
-        setY(y);
-        setZ(z);
-    }
 
     public Point(int x, int y) {
         setX(x);
         setY(y);
+    }
+
+    public Point(int x, int y, int z) {
+        this(x, y);
+        setZ(z);
     }
 
     public int getX() {

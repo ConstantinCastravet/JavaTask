@@ -9,7 +9,10 @@ public class UseEmployee {
 
         Employee manager = new Manager();
 
+
         System.out.println("Tariff per hour for manager: " + manager.getTariffPerHour());
         System.out.println("Salary of manager: " + manager.getSalary());
+
+
     }
 }
