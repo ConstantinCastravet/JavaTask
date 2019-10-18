@@ -2,7 +2,7 @@ package algorithms;
 
 public class DigitsCounter {
 
-    public Integer countDigit(int num) throws Exception {
+    public Integer countDigit(Integer num) throws Exception {
         if (num < 0 || num > 1000) {
             throw new IllegalArgumentException("Number must be between 0 and 1000");
         }
